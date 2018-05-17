@@ -7,7 +7,6 @@ var config = {
     filename: 'dist/js/[name].js'
   },
   module: {
-
     rules: [
       { // STYLE LOADERS
         test: /\.(css|sass|scss)$/,
