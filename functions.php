@@ -1,6 +1,6 @@
 <?php
 
-// little function to include partials for functions
+// helper function to include partials for functions
 function include_function($filename) {
   return require_once( dirname( __FILE__ ) . '/functions/' . $filename . '.php' );
 }
